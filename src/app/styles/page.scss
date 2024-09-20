@@ -1,0 +1,35 @@
+.content {
+   text-align: center;
+}
+  .card {
+     padding:32px;
+     width: 450px;
+     border: 1px solid #EAECF0;
+     border-radius: 16px;
+     overflow: hidden;
+     font-family: 'Inter Tight', sans-serif;
+     margin: auto;
+     top: 124px;
+  }
+  .title-card {
+   font-size: 16px;
+   font-weight: 400;
+   color: #0000008A;
+   text-align: center;
+   margin: auto;
+
+  }
+  .btn {
+   width: 510px;
+   height: 51px;
+   top: 594px;
+   left: 495px;
+   border-radius: 8px;
+   padding: 16px 24px 16px 24px;
+   gap: 8px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background: linear-gradient(90deg, #0796D3, #53C0F0);
+   border: none;
+   color: #fff;
+  }

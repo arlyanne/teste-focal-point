@@ -1,0 +1,63 @@
+.title-dialog {
+  font-family: "Inter Tight", sans-serif !important;
+  font-weight: 500;
+  color: #000000;
+}
+.dialog-content-remove {
+  display: grid;
+  gap: 5px;
+  
+  p {
+    font-family: "Inter Tight", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.btn-remove {
+  font-family: "Inter Tight", sans-serif;
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  background: linear-gradient(90deg, #D30707, #F05353 );
+  border: none;
+  color: #fff;  
+  width: 50%;
+
+}
+.btn-cancel {
+  font-family: "Inter Tight", sans-serif;  
+  border-radius: 8px;
+  width: 50%;
+  padding: 16px 24px 16px 24px;
+  background: #E7EEFB;
+  border: none;
+  color: #000;
+}
+
+.content-actions{
+    gap: 10px;
+    display: flex;
+    padding: 10px 24px 24px 24px;
+
+}
+
+@media (max-width: 899px) {
+  .dialog-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-actions {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse; /* Inverte a ordem dos itens */
+
+  }
+  .btn-add {
+    width: 100%;
+  }
+
+  .btn-cancel  {
+    width: 100%;
+  }
+}

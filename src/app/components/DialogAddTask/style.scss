@@ -1,0 +1,70 @@
+.title-dialog {
+  font-family: "Inter Tight", sans-serif !important;
+  font-weight: 500;
+  color: #000000;
+}
+.dialog-content {
+  display: grid;
+  gap: 5px;
+
+  label {
+    font-family: "Inter Tight", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  input {
+    width: 386px;
+    border-radius: 8px;
+    border: 1px solid #d7dde9;
+    padding: 16px;
+    gap: 16px;
+  }
+}
+.btn-add {
+  font-family: "Inter Tight", sans-serif;
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  background: linear-gradient(90deg, #0796d3, #53c0f0);
+  border: none;
+  color: #fff;
+  width: 50%;
+}
+.btn-cancel {
+  font-family: "Inter Tight", sans-serif;
+  border-radius: 8px;
+  width: 50%;
+  padding: 16px 24px 16px 24px;
+  background: #e7eefb;
+  border: none;
+  color: #000;
+}
+
+.content-actions {
+  gap: 10px;
+  display: flex;
+  padding: 24px 24px 24px 24px;
+}
+
+@media (max-width: 899px) {
+  .dialog-content {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 95%;
+    }
+  }
+
+  .content-actions {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-add {
+    width: 100%;
+  }
+
+  .btn-cancel  {
+    width: 100%;
+  }
+}

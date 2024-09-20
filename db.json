@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "3bfd",
+      "title": "Dentista",
+      "finished": false
+    },
+    {
+      "id": "6bf4",
+      "title": "Roupas Lavar",
+      "finished": false
+    },
+    {
+      "id": "de58",
+      "title": "Passear Amora",
+      "finished": true
+    },
+    {
+      "id": "228a",
+      "title": "Arrumar a cama",
+      "finished": true
+    }
+  ]
+}
